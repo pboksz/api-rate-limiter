@@ -1,0 +1,1 @@
+A small project to mess around with API rate limiting

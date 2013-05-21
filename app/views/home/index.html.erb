@@ -1,0 +1,8 @@
+<h1>Call the Facebook API</h1>
+
+<div><%= flash[:alert] %></div>
+
+<%= form_tag(root_path) do %>
+  <%= text_field_tag :times, '', :placeholder => 'How many times?' %>
+  <%= submit_tag 'Call API' %>
+<% end %>
